@@ -4,7 +4,7 @@
 下記はサンプルプログラムである．  
 課題作成にあたっては「Lenna」以外の画像を用いよ．  
 ***
-```
+```Matlab
 clear; % 変数のオールクリア
 ORG=imread('Lenna.png'); % 原画像の入力
 ORG = rgb2gray(ORG);
@@ -16,7 +16,7 @@ pause; % 一時停止
 
 
 
-```
+```Matlab
 IMG = ORG>128; % 128による二値化
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 pause;
